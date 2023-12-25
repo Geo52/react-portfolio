@@ -24,7 +24,7 @@ export default function Intro() {
             src="src/assets/me.jpg"
             alt=""
             sizes="(min-width: 1024px) 32rem, 20rem"
-            className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
+            className="aspect-square rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
           />
         </div>
       </div>
@@ -35,18 +35,41 @@ export default function Intro() {
         <p className="text-base md:text-xl mb-3 font-mono mt-2">
           Software Engineer
         </p>
-        <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+        <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400 text-justify">
           <p>Hey there 👋</p>
-          <p>I'm Jorge a software engineer/computer science student looking to find a place I can improve my skillset. Currently I am attending the University of Texas Rio Grande Valley in (you guessed it) the RGV or more specifically Edinburgh, TX. I took an interest in programming during a short two year stint in construction, where I got to travel all across the U.S and work in many different capacities.</p>
           <p>
-            It was there that I discovered my love for ingenuity, seeing the crew and engineers work together to solve unique problems. Hacking together ad hoc "tools" at any givin time using experience and physics mostly. 
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+            quisquam accusantium tempore reprehenderit earum cum harum, fugit
+            velit voluptate odit ipsa quas doloremque veritatis numquam
+            laboriosam blanditiis minus dolorum nam maxime dolor cumque fugiat
+            consectetur? Cum alias labore fuga quasi, beatae iste maxime nisi
+            consequuntur officiis. Velit officia earum sunt!
           </p>
           <p>
-            No where do I see this type of problem solving more, and in its purest form than in programming. I would spend hours in my free time studying these problems, sometimes even taking a textbook to work and working on them there, and then of course dreaming about them at night. Needless to say I got addicted to thinking in code and still do till this day.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+            quibusdam aliquid repellendus atque, ab libero eligendi animi.
+            Incidunt quod minus dolor sit. Iste accusamus soluta et ipsam
+            dolores omnis modi corrupti architecto deleniti numquam voluptate
+            enim, iusto rerum qui in fugiat. Nesciunt autem voluptas sapiente
+            rem. Dolore impedit eius perspiciatis!
           </p>
+          <a
+          href="#contact"
+            type="button"
+            class=" scroll-smooth text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+          >
+            Contact Me
+          </a>
+          <a
+            href="#work"
+            type="button"
+            class=" scroll-smooth text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
+          >
+            See My Work
+          </a>
         </div>
       </div>
-      <div className="lg:pl-20">
+      {/* <div className="lg:pl-20">
         <ul role="list">
           <SocialLink href="https://twitter.com/JLR_lll" icon={TwitterIcon}>
             Follow on Twitter
@@ -59,7 +82,7 @@ export default function Intro() {
             Follow on GitHub
           </SocialLink>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }
