@@ -4,7 +4,7 @@ export default function Contact() {
       <div id="contact" className="flex flex-col mb-10 mx-auto">
         <div className="flex justify-center items-center">
           <form
-            action="https://getform.io/f/(customSlugHere)"
+            action="https://getform.io/f/ef346c0e-156c-4906-975e-b3f8d1ae5fdd"
             method="POST"
             className="flex flex-col w-full md:w-7/12"
           >
