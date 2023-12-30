@@ -1,5 +1,7 @@
 /* eslint-disable react/prop-types */
-
+import portfolioWebsite from '../assets/portfolio-screenshot.png'
+import ttc from '../assets/ttc_screenshot.png'
+import tasksAppSC from '../assets/tasks.png'
 function Project({ imgSource, demo, code, title, about, tech1, tech2, tech3 }) {
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg m-8">
@@ -50,7 +52,7 @@ export default function Projects() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <Project
           title={"Portfolio Website"}
-          imgSource={"src/assets/portfolio-screenshot.png"}
+          imgSource={portfolioWebsite}
           demo={"https://jorgerios.dev/"}
           code={"https://github.com/Geo52/react-portfolio"}
           about={
@@ -62,7 +64,7 @@ export default function Projects() {
         />
         <Project
           title={"Tic Tac Toe"}
-          imgSource={"src/assets/ttc_screenshot.png"}
+          imgSource={ttc}
           demo={"https://stellular-taiyaki-ab4f12.netlify.app/"}
           code={"https://github.com/Geo52/tic-tac-toe"}
           about={
@@ -74,7 +76,7 @@ export default function Projects() {
         />
         <Project
           title={"Tasks app"}
-          imgSource={"src/assets/tasks.png"}
+          imgSource={tasksAppSC}
           demo={"https://master--frolicking-sprite-531ddf.netlify.app/"}
           code={"https://github.com/Geo52/to-do-app"}
           about={
