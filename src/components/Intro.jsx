@@ -38,23 +38,17 @@ export default function Intro() {
         <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400 text-justify">
           <p>Hey there 👋</p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
-            quisquam accusantium tempore reprehenderit earum cum harum, fugit
-            velit voluptate odit ipsa quas doloremque veritatis numquam
-            laboriosam blanditiis minus dolorum nam maxime dolor cumque fugiat
-            consectetur? Cum alias labore fuga quasi, beatae iste maxime nisi
-            consequuntur officiis. Velit officia earum sunt!
+            My name is Jorge, I am currently a junior at the University of Texas
+            Rio Grande Valley where I study Computer Science and specialize in
+            web development.
           </p>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            quibusdam aliquid repellendus atque, ab libero eligendi animi.
-            Incidunt quod minus dolor sit. Iste accusamus soluta et ipsam
-            dolores omnis modi corrupti architecto deleniti numquam voluptate
-            enim, iusto rerum qui in fugiat. Nesciunt autem voluptas sapiente
-            rem. Dolore impedit eius perspiciatis!
+            I take pride in writing clean, maintainable, and readable code that
+            scales. My methodology involves building things as simply as
+            possible then adding complexity when necessary. At least in my biased opinion, so I would greatly appreciate it if you looked at my work and gave me some feedback in the contact form.
           </p>
           <a
-          href="#contact"
+            href="#contact"
             type="button"
             class=" scroll-smooth text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
           >
